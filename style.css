@@ -1,0 +1,96 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: tahoma;
+}
+
+.pages,
+.pages > div {
+    width: 100%;
+    height: 100%;
+    transform:translateX(-50);
+}
+
+.pages > div:nth-child(1) {
+    background-image: url(img/attractive-beautiful-beauty-594421.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pages > div:nth-child(2) {
+    background-image: url(img/art-black-and-white-bulbs-1263221.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pages > div:nth-child(3) {
+    background-image: url(img/attractive-beautiful-beauty-735552.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pages > div:nth-child(4) {
+    background-image: url(img/bed-black-and-white-bnw-1597684.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pages > div:nth-child(5) {
+    background-image: url(img/art-black-and-white-black-background-1157936.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pages > div:nth-child(6) {
+    background-image: url(img/black-and-white-black-and-white-dark-702139.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu {
+    list-style: none;
+    margin: -75px 0;
+    padding: 0;
+    position: fixed;
+    bottom: 50%;
+    right: 50px;
+
+}
+
+.menu li {
+    clear: both;
+    display: block;
+}
+.menu a {
+    border: 1px solid white;
+    border-radius: 13px;
+    color: rgba(0,0,0,0);
+    display: block;
+    float: right;
+    font-size: 13px;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin-top: 15px;
+    opacity: 0.6;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.menu a:hover,
+.menu a:active {
+    width: 100px;
+    color: #777;
+    background: white;
+}
+
+.menu a:active {
+    opacity: 1;
+}
+
+h2 {
+    color: #777;
+    margin: 0;
+    padding: 40px;
+}
